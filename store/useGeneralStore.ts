@@ -1,4 +1,4 @@
-export const useGeneralStore = defineStore('generalStore', () => {
+export const useGeneralStore = defineStore('general', () => {
 
     // state
     const localLoader = ref<boolean>(false);
@@ -8,7 +8,7 @@ export const useGeneralStore = defineStore('generalStore', () => {
     const isContentLoading = ref<boolean>(false)
     const btnLoadingState = ref<boolean>(false)
     const isLoading = ref<boolean>(false);
-    const longName = ref<string>('Tanzania Startups')
+    const longName = ref<string>('Shopping Store')
 
     const appRoutes  = ref([
         {name: 'Dashboard', path: '/crm/', userRole: '', isActiveLink:true},

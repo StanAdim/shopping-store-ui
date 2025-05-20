@@ -7,10 +7,11 @@ const genStore = useGeneralStore()
 
 <template>
   <template>
-    <div class="min-h-screen bg-gray-100 flex items-center justify-center text-2xl text-blue-600">
-      Tailwind CSS with Nuxt 3!
-      {{ genStore.getAppName}}
+    <div class="flex flex-col">
+      <login />
+      <register />
     </div>
+
   </template>
 
 </template>
